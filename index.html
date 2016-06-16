@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+    <title>APJ University</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+  </head>
+  <body>
+    	<div class="container" id="main">
+        <div class="navbar navbar-fixed-top">
+          <div class="container" id="header_inner">
+						<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+							<span class="glyphicon glyphicon-list"></span>
+						</button>
+            <a class="navbar-brand" href="/"><img src="images/Logo.png" alt="Universirty Logo"></a>
+            <div class="nav-collapse collapse navbar-responsive-collapse">
+  						<ul class="nav navbar-nav" id="header_comp">
+  							<li class="active"><a href="#"> <span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses offered</a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Primary Education</a></li>
+										<li><a href="#">Secondary Education</a></li>
+										<li><a href="#">B.Tech</a></li>
+										<li><a href="#">M.Tech</a></li>
+										<li><a href="#">Ph.d</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Events</a></li>
+              </ul>
+              <form class="navbar-form pull-right">
+                <input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+                <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+              </form><!-- end navbar-form -->
+            </div>
+          </div><!-- nav-container end-->
+        </div><!-- Nav end-->
+
+				<div class="carousel slide" id="myCarousel">
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active" id="slide1">
+							<div class="carousel-caption">
+								<h4>Library <small>-Information Service Division</small></h4>
+								<p>The cernter for knowledge sharing and improvement with all varieties of books.</p>
+							</div><!-- end carousel-caption-->
+						</div><!-- end item -->
+
+						<div class="item" id="slide2">
+							<div class="carousel-caption">
+								<h4>Interactive sessions</h4>
+								<p>Complex Issues may not be resolved by invidual person, the same can be resolved by a group of intellects together.</p>
+							</div><!-- end carousel-caption-->
+						</div><!-- end item -->
+					</div><!-- carousel-inner -->
+
+					<!-- Controls -->
+					<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="glyphicon glyphicon-chevron-left"></span></a>
+					<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="glyphicon glyphicon-chevron-right"></span></a>
+
+				</div><!-- end myCarousel -->
+
+				<div class="row" id="featuresHeading">
+					<div class="col-12 pull-left" id="quote">
+						<h3 class="lead">We Believe In -</h3>
+						<p class="para"><i>Failure defeats losers, failure inspires winners – Robert T. Kiyosaki.</i></p>
+					</div>
+							<a href="#myModal" role="button" class="btn btn-success pull-right" id="regbtn" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click here to register</a>
+							<div class="modal fade" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button class="close" data-dismiss="modal">&times;</button>
+											<h4 class="modal-title">New users Registration</h4>
+										</div><!-- end modal-header -->
+										<div class="modal-body">
+											<form class="form-horizontal">
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputName">Name</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputName" placeholder="Name" type="text">
+														</div>
+													</div>
+
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+														</div>
+													</div>
+
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="cpwd">Password</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="pwd" placeholder="password" type="password">
+														</div>
+													</div>
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="cpwd">Confirm Password</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="cpw" placeholder="password" type="password">
+																<button class="btn btn-success pull-right" type="submit">Submit</button>
+														</div>
+													</div>
+												</form>
+										</div>
+									</div>
+								</div>
+							</div>
+
+				</div>
+
+				<div class="row" id="features">
+					<div class="col-sm-4 feature ">
+						<div class="panel">
+							<div class="panel-heading">
+								<h3 class="panel-title">Extra-Ciriculars</h3>
+							</div>
+							<img src="images/dance.jpg" alt="Dance" >
+							<p>Culture is the arts elevated to a set of beliefs, so we encourage everyone to take part in culturals.Other studies have shown being involved in extracurricular.</p>
+							<a href="#" target="_blank" class="btn btn-info btn-block">Upcomming events</a>
+					 </div>
+			  	</div>
+
+					<div class="col-sm-4 feature">
+						<div class="panel">
+							<div class="panel-heading">
+								<h3 class="panel-title">Technical Events</h3>
+							</div>
+							<img src="images/techevent.jpg" alt="Technical events" >
+							<p>Technical Society is one of the most active societies in Student Activity Centre, NIT Rourkela with eighteen Satellite Clubs under its auspices.</p>
+							<a href="#" target="_blank" class="btn btn-danger btn-block">Upcomming Technical events</a>
+						</div>
+					</div>
+
+					<div class="col-sm-4 feature">
+						<div class="panel">
+							<div class="panel-heading">
+								<h3 class="panel-title">Games And Sports</h3>
+							</div><!-- end panel-heading -->
+							<img src="images/games.jpg" alt="Games and Sports">
+							<p>Games and sports are not only important for success in studio but it is important for success in every walks of our life success in every walks of our.</p>
+							<a href="#" target="_blank" class="btn btn-info btn-block">Upcomming Tornaments</a>
+						</div>
+					</div>
+				</div><!-- end features -->
+
+				<div class="hero">
+						<img src="images/university-md.jpg" alt="university building">
+				</div>
+      </div><!-- Main end-->
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-2 visible-lg ">
+						<h6>Copyright &copy; 2010 Premji fooundation</h6>
+						</div>
+
+						<div class="col-sm-4">
+							<h3>About Us</h3>
+							<p>Azim Premji University was established in Karnataka by the Azim Premji University Act 2010 as a not-for-profit
+								University and is recognized by The University Grants Commission (UGC) under Section 22F.</p>
+						</div>
+						<div class="col-sm-3 site_links">
+							<h3>Navigation</h3>
+							<ul class="unstyle">
+								<li><a href="#">Events</a></li>
+								<li><a href="#">Press Statements</a></li>
+								<li><a href="#">Convocations</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-3 site_links">
+							<h3>Follow Us</h3>
+							<ul class="unstyle">
+								<li><a href="#">	<img src="images/fb-over.png" class="img-circle" alt="fb image">Facebook</a></li>
+								<li><a href="#"><img src="images/twitter-hover.png"  class="img-circle" alt="twitter image" >Twitter</a></li>
+								<li><a href="#"><img src="images/linked-in-over.png" class="img-circle" alt="linkedimage">Google Plus</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-2 visible-xs hidden-lg text-center">
+						<h6>Copyright &copy; 2010 Premji fooundation</h6>
+						</div>
+					</div><!--row -->
+				</div><!-- container-footer end-->
+			</footer>
+      <!-- Jquery JS -->
+			<script src="includes/js/jquery-1.8.2.min.js"></script>
+			<!-- Bootstrap JS -->
+			<script src="bootstrap/js/bootstrap.min.js"></script>
+
+			<!-- Custom JS -->
+			<script src="includes/js/script.js"></script>
+
+  </body>
+</html>
